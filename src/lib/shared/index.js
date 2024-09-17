@@ -1,4 +1,4 @@
-// import antISystems from './data/antISystems';
+import categories from './data/categories';
 
 
-// export { };
+export { categories};
