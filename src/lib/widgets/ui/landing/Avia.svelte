@@ -20,7 +20,7 @@
           </p>
 
         <a href="/" class="button-2 yellow-background w-button">
-          Więcej informacji na ten temat
+          Więcej informacji o avii 🚚
         </a>
       </div>
       <div class="split-section-image">
