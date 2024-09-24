@@ -6,13 +6,14 @@
   <div class="container">
     <div class="title-wrapper centered">
       <div class="all-caps">
-        Lorem Ipsum has been the industry's
+        Serdecznie witam w Ecowoo.
       </div>
       <h1 class="alternative-title">‍
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.        <a href="/">Pairing</a>.
+        Ecowoo przytulny sklepik internetowy - z ręcznie robionymi magnesami z drewna 🪵
+       <!-- <a href="/">Pairing</a>. -->
       </h1>
-      <a href="/" class="button-2 unicorn-bg w-button">
-        Lorem Ipsum has been the industry's
+      <a href="#categories" class="button-2 unicorn-bg w-button">
+        Więcej o kolekcjach magnesów.
       </a>
     </div>
   </div>

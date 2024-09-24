@@ -1,5 +1,23 @@
 <script>
   import {categories} from '$shared';
+  const footerLinks = [
+    {
+      link: '/',
+      title: 'AVIA.camper'
+    },
+    {
+      link: '#about',
+      title: 'O mnie'
+    },
+    {
+      link: '#contact',
+      title: 'Kontact'
+    },
+    {
+      link: '#faq',
+      title: 'F.A.Q.'
+    },
+  ]
 </script>
 
 <footer class="footer-section ">
@@ -80,18 +98,18 @@
     <div class="footer-copyright desktop">
       <div class="footer-link links">2024© EcoWoo;</div>
       <div class="div-block-5">
-        <a href="/" class="footer-link legal">Lorem Ipsum</a>
-        <a href="/" class="footer-link legal">Lorem Ipsum</a>
-        <a href="/" aria-current="page" class="footer-link legal w--current">Lorem Ipsum</a>
+        {#each footerLinks as {title, link}}
+        <a href="{link}" class="footer-link legal">{title}</a>
+        {/each}
       </div>
       <div class="footer-link rechts">Development by <a href="https://oleg-darkdev.vercel.app/" target="_blank" class="copyright-link">oleg_DarkDev</a> <em class="italic-text">♥︎</em>
       </div>
     </div>
     <div class="footer-copyright mobile">
       <div class="div-block-5">
-        <a href="#" class="footer-link legal">Lorem Ipsum</a>
-        <a href="#" class="footer-link legal">Lorem Ipsum</a>
-        <a href="#" class="footer-link legal">Lorem Ipsum</a>
+        {#each footerLinks as {title, link}}
+        <a href="{link}" class="footer-link legal">{title}</a>
+        {/each}
       </div>
       <div class="copyright-wrapper">
         <div class="footer-link links">2024© EcoWoo;</div>
