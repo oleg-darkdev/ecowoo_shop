@@ -12,7 +12,13 @@ import BannerDivider from './ui/landing/BannerDivider.svelte';
 import Avia from './ui/landing/Avia.svelte';
 import Categories from './ui/landing/Categories.svelte';
 import ProductsStorefront from './ui/landing/ProductsStorefront.svelte';
-// import AboutMe from './ui/landing/AboutMe.svelte';
+// import Newsletter from './ui/landing/Newsletter.svelte';
+// import Newsletter from './ui/landing/Newsletter.svelte';
+// import Newsletter from './ui/landing/Newsletter.svelte';
+// import Newsletter from './ui/landing/Newsletter.svelte';
+// import Newsletter from './ui/landing/Newsletter.svelte';
+// import Newsletter from './ui/landing/Newsletter.svelte';
+// import Newsletter from './ui/landing/Newsletter.svelte';
 
 
 export { Footer, Faq, PreFaq, Header, Stats, Banner, Hero, AboutMe, Contact, Testimonials, BannerDivider, Avia, Categories, ProductsStorefront };
