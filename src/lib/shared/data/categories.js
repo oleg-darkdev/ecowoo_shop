@@ -13,7 +13,7 @@ const categories = [
 
   //   ],
   //   id: 0, brandColor: '',
-  //   link: '/lgbtqia'
+  //   link: '/magnets/lgbtqia'
   // },
 
   // {
@@ -28,7 +28,7 @@ const categories = [
 
   //   ],
   //   id: 0, brandColor: '',
-  //   link: '/chess'
+  //   link: '/magnets/chess'
   // },
   {
     tags: ['serduszko', 'romans', 'sympatie', 'miłość', 'delikatność', 'dbałość', 'relacje', 'rocznica', 'dlaniego', 'dlaniej', 'wskazówka'],
@@ -43,7 +43,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'lovers-bg',
-    link: '/pair'
+    link: '/magnets/pair'
   },
      {
     tags: ['nostalgia', 'bohaterowie', 'kreskówki', 'filmy', 'postacie'],
@@ -58,7 +58,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'films-bg',
-    link: '/heroes'
+    link: '/magnets/heroes'
   },
   {
     tags: ['zwierzaki', 'pupile', 'koty', 'fauna', 'ptaki', 'natura', 'przyroda'],
@@ -73,7 +73,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'animals-bg',
-    link: '/animals'
+    link: '/magnets/animals'
   },
   {
     tags: ['kwiatki', 'rośliny', 'flora', 'wiosna', 'róża', 'lawenda', 'rumianek', 'irys', 'orchidea', 'chryzantema', 'dalia', 'kaktus'],
@@ -89,7 +89,7 @@ const categories = [
 
     ],
     id: 0, brandColor: '',
-    link: '/flowers'
+    link: '/magnets/flowers'
   },
   {
     tags: ['planetka', 'góry', 'las', 'drzewa', 'liście',  'globus', 'eko-frendly', 'ekologia', 'ekoupominki', ],
@@ -105,7 +105,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'nature-bg',
-    link: '/nature'
+    link: '/magnets/nature'
   },
   {
     tags: ['graffiti', 'street-art', 'twórczość', 'sztuka', 'kreatywność', 'kaligrafia'],
@@ -122,7 +122,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'graffiti-bg',
-    link: '/graffiti'
+    link: '/magnets/graffiti'
   },
   {
     tags: ['kosmos',  'kosmici', 'UFO',  'astronomia', 'astro', 'uniwersum', 'planety', 'gwiazdy', 'galaktyka', 'MKS', 'ISS', 'asteroidy', 'planetoidy',],
@@ -138,7 +138,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'cosmos-bg',
-    link: '/cosmos'
+    link: '/magnets/cosmos'
   },
 
 
@@ -156,7 +156,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'van-bg',
-    link: '/van-life'
+    link: '/magnets/van-life'
   },
   {
     tags: ['kolarstwo', 'citybike', 'bikepolo', 'MTB', 'touring', 'grawel', 'triathlon', 'fatbike', 'BMX' ],
@@ -170,7 +170,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'cycle-bg',
-    link: '/cycle'
+    link: '/magnets/cycle'
   },
   {
 
@@ -185,7 +185,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'tourism-bg',
-    link: '/tourism'
+    link: '/magnets/tourism'
   },
   {
     tags: ['historia', 'folklor', 'kultura', 'etniczność', 'etnos', 'narodowość', 'tradycji'],
@@ -200,7 +200,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'belarus-bg',
-    link: '/belarus'
+    link: '/magnets/belarus'
   },
      {
     tags: ['historia', 'archeologia', 'paleontologia', 'zamki', 'twierdze', 'fortyfikacje', 'zabytki', 'rycerze', 'wikingowie', 'neolit', 'paleolit'],
@@ -216,7 +216,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'history-bg',
-    link: '/history'
+    link: '/magnets/history'
   },
   {
     // antykapitalizm
@@ -231,7 +231,7 @@ const categories = [
 
     ],
     id: 0, brandColor: 'acab-bg',
-    link: '/anti-system'
+    link: '/magnets/anti-system'
   },
   // {
   //   tags: ['', '', '', '', ''],
@@ -245,7 +245,7 @@ const categories = [
 
   //   ],
   //   id: 0, brandColor: '',
-  //   link: '/cycle'
+  //   link: '/magnets/cycle'
   // },
 
 
