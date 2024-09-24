@@ -4,7 +4,7 @@
 
 <section class="section no-padding-tb-sides">
   <div class="container no-padding-tb">
-    <div class="flex-horizontal padding-left">
+    <div id='categories' class="flex-horizontal padding-left">
       <div class="reviews-title-wrapper">
         <div class="all-caps">
           Każdy magnes wykonany jest z naturalnego drewna
@@ -48,7 +48,7 @@
               <div class="button-wrapper">
                 <!-- yellow-background -->
                 <!-- wszystkie -->
-                <a href="{category.link}" class="button-2 {category.brandColor} w-button lowercase">
+                <a href="{category.link}" target="_blank" class="button-2 {category.brandColor} w-button lowercase">
                    magnesy {category.title} {category.emoji}
                 </a>
               </div>
