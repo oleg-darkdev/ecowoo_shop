@@ -62,7 +62,7 @@
                 <div class="grid-product-image-wrapper">
                   <!-- <img alt="" loading="lazy"  src="{img}" class="grid-image-product w-condition-invisible"> -->
                   <img src="{img}" loading="lazy" alt="" class="w-full h-full grid-image-product">
-                  <img src="images/placeholder.60f9b1840c.svg" loading="eager" alt="" class="grid-hover-image-product">
+                  <img src="images/placeholder.svg" loading="eager" alt="" class="grid-hover-image-product">
                   <div class="eigenschaft-container w-condition-invisible">
                     <div class="eigenschaft-bubble w-condition-invisible">
                       <div class="eigenschaft-label">NO <br>SU </div>
