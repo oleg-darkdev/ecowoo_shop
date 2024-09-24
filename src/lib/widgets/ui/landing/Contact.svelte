@@ -31,18 +31,19 @@
           W razie jakichkolwiek pytań proszę o <a href="#faq">zwrócenie uwagi na blok F.A.Q.</a> - jeśli nie ma tam odpowiedzi, możesz śmiało pytać mnie w prywatnych wiadomościach.
         </div>
       </div>
+
       <div class="split-ig-image-wrapper">
         <div class="w-layout-grid split-ig-grid">
-          <div class="split-ig-image social-1">
+          <div class="split-ig-image social-4">
             <img src="images/process_2.jpg" loading="lazy" sizes="(max-width: 991px) 100vw, 45vw"  alt="" class="image-cover">
           </div>
-          <div class="split-ig-image social-2">
+          <div class="split-ig-image social-4">
             <img src="images/heart.svg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 46vw, 45vw"  alt="" class="image-cover">
           </div>
-          <div   class="split-ig-image social-3">
+          <div   class="split-ig-image social-4">
             <img src="images/hello.svg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 46vw, 45vw" alt="" class="image-cover">
           </div>
-          <div  class="split-ig-image social-4">
+          <div  class="split-ig-image social-3 ">
             <img src="images/oleg.JPG" loading="lazy" sizes="(max-width: 991px) 100vw, 45vw"  alt="" class="image-cover">
           </div>
         </div>

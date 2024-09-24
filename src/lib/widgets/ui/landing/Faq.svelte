@@ -18,7 +18,7 @@
         {#each faq.data as data}
         <div class="faq-content" on:click={()=> data.show = !data.show}>
           <div class="faq-title flex-row flex " >
-            <h3 class="faq-header" >{data.q}</h3>
+            <h3 class="faq-header mr-2" >{data.q}</h3>
             <h2 class="faq-header">{data.show ? '👆' : '👇'}</h2>
           </div>
           <!--  yellow-background -->

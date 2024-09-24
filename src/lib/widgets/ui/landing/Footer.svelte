@@ -59,7 +59,7 @@
       </div>
       <div class="footer-menu">
         <div class="footer-menu-title">
-          <div class="all-caps footer">Lista pamiątek.</div>
+          <div class="all-caps footer">Kategorie pamiątek.</div>
         </div>
         <!-- <a href="/shop" class="footer-link"></a> -->
         <div class="w-dyn-list">
@@ -73,10 +73,10 @@
           </div>
         </div>
       </div>
-      <div class="footer-menu pt-24">
-        <!-- <div class="footer-menu-title">
-          <div class="all-caps footer"></div>
-        </div> -->
+      <div class="footer-menu">
+        <div class="footer-menu-title">
+          <div class="all-caps footer">Kategorie pamiątek.</div>
+        </div>
             {#each categories.slice(6, 12) as category}
             <div role="listitem" class="w-dyn-item">
               <a href="{category.link}" class="footer-link">{category.emoji} {category.title} </a>
@@ -87,7 +87,7 @@
         <div class="footer-menu-title">
           <div class="all-caps footer">Kontakt</div>
         </div>
-        <a href="https://goo.gl/maps/iUH8mDgns7siVcb37" target="_blank" class="footer-link infos">
+        <a href="/" target="_blank" class="footer-link infos">
           Lorem Ipsum is simply dummy
           <br>Lorem Ipsum is simply dummy
            <br>Lorem Ipsum 14:00 – 19:00

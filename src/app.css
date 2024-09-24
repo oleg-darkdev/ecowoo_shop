@@ -8038,6 +8038,7 @@ blockquote {
   .split-ig-grid {
     grid-column-gap: 0.5em;
     grid-row-gap: 0.5em;
+     height: auto;
     grid-template-rows: 50% 50%;
     grid-template-columns: 100%;
   }
@@ -8990,6 +8991,7 @@ blockquote {
   .split-ig-image-wrapper {
     width: 100%;
     padding-left: 0;
+    max-height: 450px;
   }
   .half-width-content {
     width: 75%;
