@@ -24,7 +24,7 @@
               <p class="labels-text">
                 Lorem Ipsum has
               </p>
-              <a href="/" class="button-2 yellow-background large-padding w-button">
+              <a href="https://oleg-darkdev.vercel.app/" class="button-2 yellow-background large-padding w-button">
                 Lorem Ipsum has been the industry
               </a>
             </div>
