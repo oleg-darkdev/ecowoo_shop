@@ -1,23 +1,5 @@
 <script>
-  import {categories} from '$shared';
-  const footerLinks = [
-    {
-      link: '/',
-      title: 'AVIA.camper'
-    },
-    {
-      link: '#about',
-      title: 'O mnie'
-    },
-    {
-      link: '#contact',
-      title: 'Kontact'
-    },
-    {
-      link: '#faq',
-      title: 'F.A.Q.'
-    },
-  ]
+  import {categories, contacts, footerLinks} from '$shared';
 </script>
 
 <footer class="footer-section ">
@@ -42,18 +24,11 @@
             <div class="all-caps footer">Sklep z handmade upominkami.</div>
           </div>
           <div class="social-icons footer">
-            <a href="/" class="social-links footer w-inline-block">
-              <img src="images/621e78476ef4b5e780a65c7a_social_icon_instagram.svg" loading="lazy" alt="" class="social-icon footer">
+            {#each contacts as {title, link, icon}}
+            <a href="{link}" class="social-links footer w-inline-block">
+              <img src="{icon}" loading="lazy" alt="{title} icon" class="social-icon footer">
             </a>
-            <a href="/" class="social-links footer w-inline-block">
-              <img src="images/621e7847d9afce6372d844a8_social_icon_facebook.svg" loading="lazy" alt="" class="social-icon footer">
-            </a>
-            <!-- <a href="" class="social-links footer w-inline-block">
-              <img src="images/621e7847a5a71e8778ca0c0a_social_icon_spotify.svg" loading="lazy" alt="" class="social-icon footer">
-            </a> -->
-            <a href="/" class="social-links footer w-inline-block">
-              <img src="images/621e7847590fabc077e6aa1d_social_icon_whatsapp.svg" loading="lazy" alt="" class="social-icon footer">
-            </a>
+            {/each}
           </div>
         </div>
       </div>
@@ -85,14 +60,13 @@
       </div>
       <div class="footer-menu">
         <div class="footer-menu-title">
-          <div class="all-caps footer">Kontakt</div>
+          <div class="all-caps footer">Kontakt ze mną.</div>
         </div>
-        <a href="/" target="_blank" class="footer-link infos">
-          Lorem Ipsum is simply dummy
-          <br>Lorem Ipsum is simply dummy
-           <br>Lorem Ipsum 14:00 – 19:00
-           <br>Lorem Ipsum 10:00 – 16:00
+        {#each contacts as {title, link}}
+          <a href="{link}" target="_blank" class="footer-link">
+            {title}
           </a>
+        {/each}
       </div>
     </div>
     <div class="footer-copyright desktop">

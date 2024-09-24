@@ -1,5 +1,5 @@
 <script>
-
+    import {contacts} from '$shared';
 </script>
 
 <section class="section padding-tb4">
@@ -16,15 +16,12 @@
         </div>
 
         <div class="social-icons mb-8">
-          <a href="https://www.instagram.com/jesus.hobo/" target="_blank" class="social-links w-inline-block">
-            <img src="images/instagram.svg" loading="lazy" alt="instagram icon" class="social-icon">
+          {#each contacts as {title, icon, data}}
+          <a href="{data}" target="_blank" class="social-links w-inline-block">
+            <img src="{icon}" loading="lazy" alt="{title} icon" class="social-icon">
           </a>
-          <a href="https://www.facebook.com/hulio.mondre" target="_blank" class="social-links w-inline-block">
-            <img src="images/facebook.svg" loading="lazy" alt="facebook icon" class="social-icon">
-          </a>
-          <a href="mailto:darkdev_brand@riseup.net" target="_blank" class="social-links w-inline-block">
-            <img src="images/email.svg" loading="lazy" alt="email icon" class="social-icon">
-          </a>
+
+          {/each}
         </div>
 
         <div class="big-paragraph">
