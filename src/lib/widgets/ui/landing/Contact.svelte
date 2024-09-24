@@ -37,10 +37,10 @@
             <img src="images/process_2.jpg" loading="lazy" sizes="(max-width: 991px) 100vw, 45vw"  alt="" class="image-cover">
           </div>
           <div class="split-ig-image social-2">
-            <img src="images/61faf381c4de8095aaa51bb0_271333764_340787597628354_5016791582495773470_n.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 46vw, 45vw"  alt="" class="image-cover">
+            <img src="images/heart.svg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 46vw, 45vw"  alt="" class="image-cover">
           </div>
           <div   class="split-ig-image social-3">
-            <img src="images/61faf381dc38ea033df37aac_244576806_192366809686915_4848694441419075826_n.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 46vw, 45vw" alt="" class="image-cover">
+            <img src="images/hello.svg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 46vw, 45vw" alt="" class="image-cover">
           </div>
           <div  class="split-ig-image social-4">
             <img src="images/oleg.JPG" loading="lazy" sizes="(max-width: 991px) 100vw, 45vw"  alt="" class="image-cover">
